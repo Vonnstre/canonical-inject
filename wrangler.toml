@@ -1,9 +1,10 @@
 name = "modlynx-canonical-worker"
-main = "src/index.js"
+main = "srf/index.js"
 compatibility_date = "2025-08-01"
 
-account_id  = "400c185e50b94db0e2b3f7a2914d8273"
+account_id  = "400c185e50b94db0e2b94db0e2b3f7a2914d8273"
 workers_dev = false
+zone_id     = "66407aa013ad5662bb3bd80d892f040a"
 
-[triggers]
-  routes = ["modlynx.xyz/*"]
+# Bind this Worker to every path on your domain:
+routes = ["modlynx.xyz/*"]
