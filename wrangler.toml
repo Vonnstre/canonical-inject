@@ -1,9 +1,9 @@
 name = "modlynx-canonical-worker"
-type = "javascript"
-
-account_id = "400c185e50b94db0e2b3f7a2914d8273"
-workers_dev = false
+main = "src/index.js"
 compatibility_date = "2025-08-01"
 
-route = "modlynx.xyz/*"
-zone_id = "66407aa013ad5662bb3bd80d892f040a"
+account_id  = "400c185e50b94db0e2b3f7a2914d8273"
+workers_dev = false
+
+[triggers]
+  routes = ["modlynx.xyz/*"]
